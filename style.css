@@ -1,0 +1,153 @@
+p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('bgd.jpg');
+    background-size:cover;
+    position:relative;
+    background-image: center;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color:white;
+    font-weight: bold;
+}
+.hero_desc {
+    font-size: 2rem;
+    color: white;
+    font-style:italic;
+    font-weight: bold;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+
+.text-center{
+    background-color:red;
+    color: black;
+}
+
+.navbarScroll, .navbarDark {
+    background-color: black;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+#footer {
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+/* spacing on all sections */
+
+#about, #Skills, #Images, #contact{
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#Contact {
+    padding-bottom: 4rem;
+    background-color: cornflowerblue;
+}
+
+#about{
+    background-color: cornflowerblue;
+}
+#Skills{
+    background-color: cornflowerblue;
+}
+#Images{
+    background-color: cornflowerblue;
+}
+#Videos{
+    background-color: cornflowerblue;
+}
+
+/*Slider*/
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+color: white;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color: white;
+}
+
+.ChangeNavBg{
+    background-color: dimgrey;
+}
+
+.social{
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: large;
+}
+span{
+    color:rgb(rgb(145, 255, 0))
+}
+.vid{
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+   }
+   .swiper-wrapper{
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+   }
+   .swiper-wrapper img{
+    text-align: center;
+    width: 100%;
+    max-height:100%;
+    object-fit: contain;
+   }
+   .swiper-slide{
+    text-align: center;
+    width: 50%;
+    max-height:100%;
+    object-fit: contain;
+   }
